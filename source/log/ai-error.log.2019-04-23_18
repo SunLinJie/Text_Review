@@ -1,0 +1,20 @@
+[2019-04-23 17:55:45] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_group_keyword.py - 113 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/ai_g7/ainlp_fasttext/source/aimodel_kw.py", line 228, in predict
+    cate = self.fasttest_juge(par_words)
+  File "/home/hometqa/ai_g7/ainlp_fasttext/source/aimodel_kw.py", line 87, in fasttest_juge
+    return self.label_to_cate[int(labels[0][0])]
+KeyError: 1
+
+[2019-04-23 17:55:45] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_group_keyword.py - 113 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/ai_g7/ainlp_fasttext/source/aimodel_kw.py", line 228, in predict
+    cate = self.fasttest_juge(par_words)
+  File "/home/hometqa/ai_g7/ainlp_fasttext/source/aimodel_kw.py", line 87, in fasttest_juge
+    return self.label_to_cate[int(labels[0][0])]
+KeyError: 1
+
+[2019-04-23 18:04:25] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': 'keyword#dfaf bad ais parameter  at 2019-04-23-18:04:25 '}], 'pro_ver': '2.1'}
+[2019-04-23 18:04:25] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': ' bad ais parameter  at 2019-04-23-18:04:25 '}], 'pro_ver': '2.1'}
+[2019-04-23 18:04:26] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': 'djga#sdfs bad ais parameter  at 2019-04-23-18:04:26 '}], 'pro_ver': '2.1'}
+[2019-04-23 18:04:26] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': '#### bad ais parameter  at 2019-04-23-18:04:26 '}], 'pro_ver': '2.1'}
+[2019-04-23 18:04:27] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': '0 bad ais parameter  at 2019-04-23-18:04:27 '}], 'pro_ver': '2.1'}
+[2019-04-23 18:04:27] [error] [/home/hometqa/ai_g7/ainlp_fasttext/source/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': '0 bad ais parameter  at 2019-04-23-18:04:27 '}], 'pro_ver': '2.1'}

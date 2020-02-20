@@ -1,0 +1,4 @@
+'normal'		     '正常'
+'gambling'	         '赌博'
+'porn'               '色情'
+'political'          '政治'

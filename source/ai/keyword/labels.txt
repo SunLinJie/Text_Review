@@ -1,0 +1,6 @@
+0: kw_political  '政治敏感'
+1: kw_terrorism  '暴恐违禁'
+2: kw_porn       '文本色情'
+3: kw_abuse      '言语辱骂'
+4: kw_promotion  '恶意推广'
+

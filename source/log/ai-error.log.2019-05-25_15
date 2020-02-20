@@ -1,0 +1,204 @@
+[2019-05-25 15:39:58] [error] [ai_g7.py - 43 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 77, in gen_pfdict
+    word, freq = line.split(' ')[:2]
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "aimodel_kw.pyx", line 238, in aimodel_kw.DefaultModelServer.predict
+    par_words = self.participle_kw(text_data)
+  File "aimodel_kw.pyx", line 70, in aimodel_kw.DefaultModelServer.participle_kw
+    segs = self.jieba_kw.lcut(segs)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 333, in lcut
+    return list(self.cut(*args, **kwargs))
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 301, in cut
+    for word in cut_block(blk):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 233, in __cut_DAG
+    DAG = self.get_DAG(sentence)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 179, in get_DAG
+    self.check_initialized()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 168, in check_initialized
+    self.initialize()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 143, in initialize
+    self.FREQ, self.total = self.gen_pfdict(self.get_dict_file())
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 87, in gen_pfdict
+    'invalid dictionary entry in %s at Line %s: %s' % (f_name, lineno, line))
+ValueError: invalid dictionary entry in /home/hometqa/ai_g7/ai_g7/source/ai/keyword/jieba_kwdict.txt at Line 1: 藏族暴动
+
+[2019-05-25 15:40:00] [error] [ai_g7.py - 43 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 77, in gen_pfdict
+    word, freq = line.split(' ')[:2]
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "aimodel_kw.pyx", line 238, in aimodel_kw.DefaultModelServer.predict
+    par_words = self.participle_kw(text_data)
+  File "aimodel_kw.pyx", line 70, in aimodel_kw.DefaultModelServer.participle_kw
+    segs = self.jieba_kw.lcut(segs)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 333, in lcut
+    return list(self.cut(*args, **kwargs))
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 301, in cut
+    for word in cut_block(blk):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 233, in __cut_DAG
+    DAG = self.get_DAG(sentence)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 179, in get_DAG
+    self.check_initialized()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 168, in check_initialized
+    self.initialize()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 143, in initialize
+    self.FREQ, self.total = self.gen_pfdict(self.get_dict_file())
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 87, in gen_pfdict
+    'invalid dictionary entry in %s at Line %s: %s' % (f_name, lineno, line))
+ValueError: invalid dictionary entry in /home/hometqa/ai_g7/ai_g7/source/ai/keyword/jieba_kwdict.txt at Line 1: 藏族暴动
+
+[2019-05-25 15:47:33] [error] [/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/flask_limiter/extension.py - 544 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 77, in gen_pfdict
+    word, freq = line.split(' ')[:2]
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "aimodel_kw.pyx", line 238, in aimodel_kw.DefaultModelServer.predict
+    par_words = self.participle_kw(text_data)
+  File "aimodel_kw.pyx", line 70, in aimodel_kw.DefaultModelServer.participle_kw
+    segs = self.jieba_kw.lcut(segs)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 333, in lcut
+    return list(self.cut(*args, **kwargs))
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 301, in cut
+    for word in cut_block(blk):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 233, in __cut_DAG
+    DAG = self.get_DAG(sentence)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 179, in get_DAG
+    self.check_initialized()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 168, in check_initialized
+    self.initialize()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 143, in initialize
+    self.FREQ, self.total = self.gen_pfdict(self.get_dict_file())
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 87, in gen_pfdict
+    'invalid dictionary entry in %s at Line %s: %s' % (f_name, lineno, line))
+ValueError: invalid dictionary entry in /home/hometqa/ai_g7/ai_g7/source/ai/keyword/jieba_kwdict.txt at Line 1: 藏族暴动
+
+[2019-05-25 15:47:46] [error] [/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/flask_limiter/extension.py - 544 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 77, in gen_pfdict
+    word, freq = line.split(' ')[:2]
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "aimodel_kw.pyx", line 238, in aimodel_kw.DefaultModelServer.predict
+    par_words = self.participle_kw(text_data)
+  File "aimodel_kw.pyx", line 70, in aimodel_kw.DefaultModelServer.participle_kw
+    segs = self.jieba_kw.lcut(segs)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 333, in lcut
+    return list(self.cut(*args, **kwargs))
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 301, in cut
+    for word in cut_block(blk):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 233, in __cut_DAG
+    DAG = self.get_DAG(sentence)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 179, in get_DAG
+    self.check_initialized()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 168, in check_initialized
+    self.initialize()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 143, in initialize
+    self.FREQ, self.total = self.gen_pfdict(self.get_dict_file())
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 87, in gen_pfdict
+    'invalid dictionary entry in %s at Line %s: %s' % (f_name, lineno, line))
+ValueError: invalid dictionary entry in /home/hometqa/ai_g7/ai_g7/source/ai/keyword/jieba_kwdict.txt at Line 1: 藏族暴动
+
+[2019-05-25 15:48:38] [error] [/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/flask_limiter/extension.py - 544 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 77, in gen_pfdict
+    word, freq = line.split(' ')[:2]
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "aimodel_kw.pyx", line 238, in aimodel_kw.DefaultModelServer.predict
+    par_words = self.participle_kw(text_data)
+  File "aimodel_kw.pyx", line 70, in aimodel_kw.DefaultModelServer.participle_kw
+    segs = self.jieba_kw.lcut(segs)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 333, in lcut
+    return list(self.cut(*args, **kwargs))
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 301, in cut
+    for word in cut_block(blk):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 233, in __cut_DAG
+    DAG = self.get_DAG(sentence)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 179, in get_DAG
+    self.check_initialized()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 168, in check_initialized
+    self.initialize()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 143, in initialize
+    self.FREQ, self.total = self.gen_pfdict(self.get_dict_file())
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 87, in gen_pfdict
+    'invalid dictionary entry in %s at Line %s: %s' % (f_name, lineno, line))
+ValueError: invalid dictionary entry in /home/hometqa/ai_g7/ai_g7/source/ai/keyword/jieba_kwdict.txt at Line 1: 藏族暴动
+
+[2019-05-25 15:49:19] [error] [/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/flask_limiter/extension.py - 544 ] keyword_error: Traceback (most recent call last):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 77, in gen_pfdict
+    word, freq = line.split(' ')[:2]
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "aimodel_kw.pyx", line 238, in aimodel_kw.DefaultModelServer.predict
+    par_words = self.participle_kw(text_data)
+  File "aimodel_kw.pyx", line 70, in aimodel_kw.DefaultModelServer.participle_kw
+    segs = self.jieba_kw.lcut(segs)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 333, in lcut
+    return list(self.cut(*args, **kwargs))
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 301, in cut
+    for word in cut_block(blk):
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 233, in __cut_DAG
+    DAG = self.get_DAG(sentence)
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 179, in get_DAG
+    self.check_initialized()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 168, in check_initialized
+    self.initialize()
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 143, in initialize
+    self.FREQ, self.total = self.gen_pfdict(self.get_dict_file())
+  File "/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/jieba/__init__.py", line 87, in gen_pfdict
+    'invalid dictionary entry in %s at Line %s: %s' % (f_name, lineno, line))
+ValueError: invalid dictionary entry in /home/hometqa/ai_g7/ai_g7/source/ai/keyword/jieba_kwdict.txt at Line 1: 藏族暴动
+
+[2019-05-25 15:52:46] [error] [ai_g7.py - 43 ] Traceback (most recent call last):
+  File "hmai/hmai_gate_nlp.pyx", line 95, in hmai.hmai_gate_nlp.AI_gate.make_app.health
+    health_str = myaigroup.doais(data, self.ai_group_list)
+  File "hmai/hmai_group_nlp.pyx", line 83, in hmai.hmai_group_nlp.AiGroup.doais
+    self.update_res(result, ai_return, ai_title)
+  File "hmai/hmai_group_nlp.pyx", line 111, in hmai.hmai_group_nlp.AiGroup.update_res
+    if res['code'] == '-1':
+KeyError: 'code'
+
+[2019-05-25 15:52:46] [error] [ai_g7.py - 43 ] Traceback (most recent call last):
+  File "hmai/hmai_gate_nlp.pyx", line 95, in hmai.hmai_gate_nlp.AI_gate.make_app.health
+    health_str = myaigroup.doais(data, self.ai_group_list)
+  File "hmai/hmai_group_nlp.pyx", line 83, in hmai.hmai_group_nlp.AiGroup.doais
+    self.update_res(result, ai_return, ai_title)
+  File "hmai/hmai_group_nlp.pyx", line 111, in hmai.hmai_group_nlp.AiGroup.update_res
+    if res['code'] == '-1':
+KeyError: 'code'
+
+[2019-05-25 15:52:50] [error] [/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/flask_limiter/extension.py - 544 ] Traceback (most recent call last):
+  File "hmai/hmai_gate_nlp.pyx", line 414, in hmai.hmai_gate_nlp.AI_gate.make_app.get_tasks
+    result_1 = myaigroup.doais(image_data, req_ais,
+  File "hmai/hmai_group_nlp.pyx", line 83, in hmai.hmai_group_nlp.AiGroup.doais
+    self.update_res(result, ai_return, ai_title)
+  File "hmai/hmai_group_nlp.pyx", line 111, in hmai.hmai_group_nlp.AiGroup.update_res
+    if res['code'] == '-1':
+KeyError: 'code'
+
+[2019-05-25 15:52:59] [error] [/home/hometqa/anaconda3/envs/py36/lib/python3.6/site-packages/flask_limiter/extension.py - 544 ] Traceback (most recent call last):
+  File "hmai/hmai_gate_nlp.pyx", line 414, in hmai.hmai_gate_nlp.AI_gate.make_app.get_tasks
+    result_1 = myaigroup.doais(image_data, req_ais,
+  File "hmai/hmai_group_nlp.pyx", line 83, in hmai.hmai_group_nlp.AiGroup.doais
+    self.update_res(result, ai_return, ai_title)
+  File "hmai/hmai_group_nlp.pyx", line 111, in hmai.hmai_group_nlp.AiGroup.update_res
+    if res['code'] == '-1':
+KeyError: 'code'
+

@@ -1,0 +1,9 @@
+[2019-03-28 16:05:55] [error] [/home/hometqa/ai_g7/new_aikeyword/hmai/hmai_gate_keyword.py - 433 ] Traceback (most recent call last):
+  File "/home/hometqa/ai_g7/new_aikeyword/hmai/hmai_gate_keyword.py", line 419, in get_tasks
+    placeai_addition=req_addition_info_in_place_ai)
+  File "/home/hometqa/ai_g7/new_aikeyword/hmai/hmai_group_keyword.py", line 83, in doais
+    self.update_res(result, ai_return, ai_title)
+  File "/home/hometqa/ai_g7/new_aikeyword/hmai/hmai_group_keyword.py", line 111, in update_res
+    if res['code'] == '-1':
+KeyError: 'code'
+

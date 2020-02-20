@@ -1,0 +1,32 @@
+[2019-03-18 17:33:14] [error] [/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_nogpu.py - 104 ] Traceback (most recent call last):
+  File "/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_nogpu.py", line 93, in health
+    health_str = myaigroup.doais(data, self.ai_group_list)
+  File "hmai/hmai_group.pyx", line 80, in hmai.hmai_group.AiGroup.doais
+  File "/home/ubuntu1804/myai/aikeyword/aimodel_kw.py", line 92, in predict
+    dic['kind'] = self.ai_kind
+AttributeError: 'DefaultModelServer' object has no attribute 'ai_kind'
+
+[2019-03-18 17:33:14] [error] [/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_nogpu.py - 104 ] Traceback (most recent call last):
+  File "/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_nogpu.py", line 93, in health
+    health_str = myaigroup.doais(data, self.ai_group_list)
+  File "hmai/hmai_group.pyx", line 80, in hmai.hmai_group.AiGroup.doais
+  File "/home/ubuntu1804/myai/aikeyword/aimodel_kw.py", line 92, in predict
+    dic['kind'] = self.ai_kind
+AttributeError: 'DefaultModelServer' object has no attribute 'ai_kind'
+
+[2019-03-18 17:35:52] [error] [/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_keyword.py - 105 ] Traceback (most recent call last):
+  File "/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_keyword.py", line 93, in health
+    health_str = myaigroup.doais(data, self.ai_group_list)
+  File "hmai/hmai_group.pyx", line 80, in hmai.hmai_group.AiGroup.doais
+  File "/home/ubuntu1804/myai/aikeyword/aimodel_kw.py", line 92, in predict
+    dic['kind'] = self.ai_kind
+AttributeError: 'DefaultModelServer' object has no attribute 'ai_kind'
+
+[2019-03-18 17:35:52] [error] [/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_keyword.py - 105 ] Traceback (most recent call last):
+  File "/home/ubuntu1804/myai/aikeyword/hmai/hmai_gate_keyword.py", line 93, in health
+    health_str = myaigroup.doais(data, self.ai_group_list)
+  File "hmai/hmai_group.pyx", line 80, in hmai.hmai_group.AiGroup.doais
+  File "/home/ubuntu1804/myai/aikeyword/aimodel_kw.py", line 92, in predict
+    dic['kind'] = self.ai_kind
+AttributeError: 'DefaultModelServer' object has no attribute 'ai_kind'
+

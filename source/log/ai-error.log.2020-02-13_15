@@ -1,0 +1,1 @@
+[2020-02-13 15:41:02] [error] [/home/liboxian/ai_server/ai_g7/ai_g7/source/hmai/hmai_gate_nlp.py - 431 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword#fnlp', 'error': 'ainame', 'error_mes': 'keyword#nlp bad ais parameter  at 2020-02-13-15:41:02 '}], 'pro_ver': '2.1'}

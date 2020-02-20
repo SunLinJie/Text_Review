@@ -1,0 +1,3 @@
+'normal'		     '正常'
+'normal_politics'	 '正常涉政'
+'violation_politics' '非正常涉政'

@@ -1,0 +1,1 @@
+[2019-04-03 17:06:34] [error] [/home/hometqa/ai_g7/aikeyword/hmai/hmai_gate_keyword.py - 388 ] {'result': [{'code': '-1', 'mr': [], 'model': 'keyword', 'error': 'ainame', 'error_mes': 'nlp bad ais parameter  at 2019-04-03-17:06:34 '}], 'pro_ver': '2.1'}
